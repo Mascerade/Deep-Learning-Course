@@ -13,8 +13,8 @@ import numpy as np
 import tensorflow as tf
 
 class CONFIG:
-    IMAGE_WIDTH = 400
-    IMAGE_HEIGHT = 300
+    IMAGE_WIDTH = 396
+    IMAGE_HEIGHT = 640
     COLOR_CHANNELS = 3
     NOISE_RATIO = 0.6
     MEANS = np.array([123.68, 116.779, 103.939]).reshape((1,1,1,3)) 
@@ -185,4 +185,4 @@ def save_image(path, image):
     
     # Clip and Save the image
     image = np.clip(image[0], 0, 255).astype('uint8')
-    scipy.misc.imsave(path, image)
+    plt.imsave(path, image)
