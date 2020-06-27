@@ -2,8 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-Course4-CNN/Week4/Neural Style Tranfer/pretrained-model/*
-Course4-CNN/Week4/Neural Style Tranfer/images/*
+"Course4-CNN/Week4/Neural Style Tranfer/pretrained-model/*"
+"Course4-CNN/Week4/Neural Style Tranfer/images/*"
+"Sequence Models/Week 2/Word Vector Representation/data/glove.6B.50d.txt"
+"Sequence Models/Week 2/Emojify/data/glove.6B.50d.txt"
 
 # C extensions
 *.so
